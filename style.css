@@ -1,0 +1,429 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    list-style: none;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #12141d;
+    font-family: 'DM Sans', sans-serif;
+    color: #fff;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    font-weight: 500;
+    max-width: 120rem;
+    margin: auto;
+}
+
+div{
+    display: block;
+}
+
+p{
+    color: hsla(0, 0%, 100%, 0.7);
+    line-height: 2.4rem;
+}
+.page{
+    padding: 0px 5%;
+}
+
+.logoname{
+    font-weight: 700;
+    color: #fff;
+}
+
+.skills, .features, .footer {
+    margin-top: 10rem;
+}
+
+.footer-section, .infobox, .features-content{
+    margin-bottom: 4rem;
+}
+
+
+/* ____________buttons________________ */
+.btn{
+    margin: 0;
+    padding: 0;
+}
+.play{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 7rem;
+    height: 7rem;
+    margin-right: 1.5rem;
+    border-radius: 100%;
+    background-color: #7cafdb;
+}
+
+.bx-play{
+    color: #fff;
+}
+
+.input{
+    height: 5.5rem;
+    margin-bottom: 0.7rem;
+    padding-left: 2rem;
+    border: 0.1rem none #000;
+    border-radius: 0.5rem 0rem 0rem 0.5rem;
+    background-color: #1e2028;
+}
+
+.btn-light{
+    background-color: #a1c4e4;
+    border: none;
+}
+
+.btn-dark{
+    background-color: #12141d;
+    border: none;
+    font-size: 1.5rem;
+}
+
+.btn-round{
+    border-radius: 5rem;
+    margin-top: 4rem;
+}
+
+.btn-square{
+    border-radius: 0.2rem;
+    background-color: #a1c4e4;
+    color: #fff;
+    font-weight: 700;
+    padding: 1.9rem 3.2rem;
+}
+
+.skills-content .btn-square p{
+    font-size: 1.6rem;
+}
+
+.btn-text{
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.btn-text p{
+    font-size: 1.2rem;
+}
+
+.btn-play{
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-radius: 5rem;
+    background-color: #a1c4e4;
+    padding: 0.7rem 4rem 0.7rem 0.7rem;
+}
+
+
+/* __________________hero_________________ */
+
+.hero {
+    /* display: flex; */
+    min-height: 70rem;
+    padding: 4.5rem 5.5rem;
+    border-radius: 0.5rem;
+    background-color: #12141d;
+    background-image:  url(./Assets/5ebaae443eff0ebb2304e8d1_banner.jpg);
+    background-size: cover;
+    background-position: 0px 0px, 50% 50%;
+    background-repeat: repeat, no-repeat;
+}
+
+
+
+.primary-title{
+    font-size: 7rem;
+    line-height: 7rem;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+}
+
+.sub-title{
+    color: white;
+    font-size: 2.2rem;
+    margin-top: 4rem;
+}
+
+/* ___________nav____________ */
+.main-header{
+    height: 11rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #12141d;
+    max-width: 120rem;
+}
+
+
+
+.nav-list li{
+    display: inline-block;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+/* _______________lines__________________ */
+.line-vertical.left{
+    margin-left: 0rem;
+}
+
+.line-vertical{
+    width: 0.2rem;
+    height: 10rem;
+    margin: 5rem auto;
+    background-color: hsla(0, 0%, 100%, 0.23);
+}
+
+.line-horizontal{
+    width: 100%;
+    height: 0.1rem;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    background-color: hsla(0, 0%, 100%, 0.09);
+}
+
+.line-button {
+    position: relative;
+    width: 100%;
+    height: 2px;
+    margin-top: 3px;
+    background-color: hsla(0, 0%, 100%, 0.2);
+}
+
+/* ________content__________ */
+.secondary-title{
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+/* ____experience_______ */
+
+.infobox{
+    min-height: 35rem;
+    padding: 4rem 3.4rem 4rem 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #1e2028;
+    transition: 0.4s ease-in;
+}
+
+.infobox:hover{
+    background-color: #12141d;
+}
+
+.dropdown-menu{
+    background-color: #1e2028;
+}
+
+.dropdown-item{
+    color: hsla(0, 0%, 100%, 0.2);
+    font-size: 1.4rem;
+}
+
+.exp .secondary-title{
+    margin-bottom: 8rem;
+}
+
+.service-title{
+    font-size: 2.4rem;
+    margin-bottom: 2rem;
+}
+
+/* ____________features___________ */
+.features .tertiary-title{
+    font-size: 2.7rem;
+    border-bottom: 0.1rem;
+    font-weight: 700;
+}
+
+.features-title{
+    font-size: 2rem;
+    margin: 2rem 0 3rem;
+}
+
+.features-content{
+    padding-right: 6.4rem;
+}
+
+/* ________________skills__________________ */
+.skills-content p{
+    font-size: 2rem;
+}
+
+.skill-text{
+    display: flex;
+    justify-content: space-between;
+    color: hsla(0, 0%, 100%, 0.5);
+}
+
+.skill-photo{
+    display: block;
+    padding: 6rem;
+    background-color: #1e2028;   
+}
+
+.skill-photo img{
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.skill-title{
+    margin-bottom: 10rem;
+}
+
+.progress{
+    height: 0.2rem;
+    background-color: #12141d;
+}
+
+.progress-bar{
+    height: 0.2rem;
+    background-color: #a1c4e4;
+}
+
+.skill{
+    width: 90%;
+    padding-bottom: 3rem;
+}
+
+.skills .secondary-title{
+    margin-bottom: 2.5rem;
+}
+
+/* ____________footer_____________ */
+
+.footer-end{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-text{
+    padding-right: 2rem;
+}
+
+/* __________responsive___________ */
+@media (min-width:1024px){
+    
+
+    .primary-title{
+        font-size: 7rem;
+        line-height: 7rem;
+        font-weight: bolder;
+        margin-bottom: 1rem;
+    }
+
+    .hero-content{
+        margin-top: 13rem;
+        margin-left: 35.5rem;
+    }
+
+    /* .main-header{
+        height: 11rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #12141d;
+        max-width: 120rem;
+    } */
+
+    .main-header{
+        /* position: fixed; */
+        background-color: transparent;
+    }
+
+    .nav-link{
+        color: white;
+    }
+
+    .main-header .logoname{
+        font-size: 3.8rem;
+        margin-right: 40rem;
+    }
+}
+
+@media(max-width:768px){
+    .primary-title{
+        font-size: 4rem;
+        line-height: 5rem;
+    }
+
+    .hero-content {
+        margin-left: 0;
+        max-height: 60rem;
+        margin-top: 15rem;
+    }
+
+    .main-nav{
+        display: none;
+    }
+}
+
+@media(max-width:320px){
+    .primary-title{
+        font-size: 3.3rem;
+        line-height: 4rem;
+    }
+
+    .main-nav{
+        display: none;
+    }
+
+    .hero{
+        min-height: 40rem;
+        padding: 1.3rem 1.3rem;
+    }
+
+    .hero-content{
+        margin-top: 8rem;
+        margin-left: 0.5rem;
+    }
+
+    .sub-title{
+        font-size: 2rem;
+    }
+
+    .btn-text{
+        font-size: 1.5rem;
+    }
+
+    .btn-text p{
+        font-size: 1.2rem;
+    }
+
+    .footer-end{
+        display: inline-block;
+    }
+
+    .play{
+    height: 5.5rem;
+    width: 5.5rem;
+    }
+
+    .btn-play{
+        height: 6.9rem;
+    }
+    
+    .main-nav{
+        display: none;
+    }
+    
+}
